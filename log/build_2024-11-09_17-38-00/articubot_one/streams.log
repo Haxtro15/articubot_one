@@ -1,0 +1,59 @@
+[0.007s] Invoking command in '/home/haxtro15/dev_ws/src/articubot_one/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/haxtro15/dev_ws/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/haxtro15/dev_ws/src/articubot_one/install/articubot_one
+[0.094s] -- The C compiler identification is GNU 11.4.0
+[0.186s] -- The CXX compiler identification is GNU 11.4.0
+[0.194s] -- Detecting C compiler ABI info
+[0.246s] -- Detecting C compiler ABI info - done
+[0.255s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.255s] -- Detecting C compile features
+[0.258s] -- Detecting C compile features - done
+[0.261s] -- Detecting CXX compiler ABI info
+[0.319s] -- Detecting CXX compiler ABI info - done
+[0.324s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.325s] -- Detecting CXX compile features
+[0.325s] -- Detecting CXX compile features - done
+[0.327s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.627s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.680s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.704s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.770s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.773s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.773s] -- Configured cppcheck include dirs: 
+[0.773s] -- Configured cppcheck exclude dirs and/or files: 
+[0.777s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.777s] -- Configured cpplint exclude dirs and/or files: 
+[0.778s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.779s] -- Added test 'lint_cmake' to check CMake code style
+[0.780s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.784s] -- Added test 'uncrustify' to check C / C++ code style
+[0.784s] -- Configured uncrustify additional arguments: 
+[0.785s] -- Added test 'xmllint' to check XML markup files
+[0.786s] -- Configuring done
+[0.789s] -- Generating done
+[0.790s] -- Build files have been written to: /home/haxtro15/dev_ws/src/articubot_one/build/articubot_one
+[0.794s] Invoked command in '/home/haxtro15/dev_ws/src/articubot_one/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/haxtro15/dev_ws/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/haxtro15/dev_ws/src/articubot_one/install/articubot_one
+[0.795s] Invoking command in '/home/haxtro15/dev_ws/src/articubot_one/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/haxtro15/dev_ws/src/articubot_one/build/articubot_one -- -j4 -l4
+[0.821s] Invoked command in '/home/haxtro15/dev_ws/src/articubot_one/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/haxtro15/dev_ws/src/articubot_one/build/articubot_one -- -j4 -l4
+[0.841s] Invoking command in '/home/haxtro15/dev_ws/src/articubot_one/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/haxtro15/dev_ws/src/articubot_one/build/articubot_one
+[0.846s] -- Install configuration: ""
+[0.846s] -- Execute custom install script
+[0.847s] -- Symlinking: /home/haxtro15/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/config/empty.yaml
+[0.853s] -- Symlinking: /home/haxtro15/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+[0.859s] -- Symlinking: /home/haxtro15/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/description/robot_core.xacro
+[0.865s] -- Symlinking: /home/haxtro15/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[0.871s] -- Symlinking: /home/haxtro15/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/worlds/empty.world
+[0.877s] -- Symlinking: /home/haxtro15/dev_ws/src/articubot_one/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[0.883s] -- Symlinking: /home/haxtro15/dev_ws/src/articubot_one/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[0.889s] -- Symlinking: /home/haxtro15/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[0.895s] -- Symlinking: /home/haxtro15/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[0.901s] -- Symlinking: /home/haxtro15/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/environment/path.sh
+[0.907s] -- Symlinking: /home/haxtro15/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/environment/path.dsv
+[0.913s] -- Symlinking: /home/haxtro15/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/local_setup.bash
+[0.919s] -- Symlinking: /home/haxtro15/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/local_setup.sh
+[0.927s] -- Symlinking: /home/haxtro15/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/local_setup.zsh
+[0.934s] -- Symlinking: /home/haxtro15/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/local_setup.dsv
+[0.940s] -- Symlinking: /home/haxtro15/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/package.dsv
+[0.946s] -- Symlinking: /home/haxtro15/dev_ws/src/articubot_one/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[0.952s] -- Symlinking: /home/haxtro15/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[0.958s] -- Symlinking: /home/haxtro15/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[0.964s] -- Symlinking: /home/haxtro15/dev_ws/src/articubot_one/install/articubot_one/share/articubot_one/package.xml
+[0.971s] Invoked command in '/home/haxtro15/dev_ws/src/articubot_one/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/haxtro15/dev_ws/src/articubot_one/build/articubot_one
